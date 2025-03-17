@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>susgruppen.de - Schüler*innen schnell einteilen</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        susgruppen.de<br />
+        Group your students quickly!
+      </h1>
+      <h2>
+        Here you can quickly and easily assign students to the desired number of groups.
+        <br /><br />
+        <div class="liste">
+          The grouping is done<br />
+          - randomly<br />
+          - by preference for collaboration<br />
+          - against the preference for collaboration<br />
+          - by heterogeneity of performance levels (1-3)<br />
+          - by homogeneity of performance levels (1-3)
+        </div>
+      </h2>
+      <h3>
+        The table must include the names of the students to be assigned in its first column.
+        <br /><br />
+        Optionally, the following columns may contain the students’ preferred partners for collaboration and/or their performance level (1-3).
+      </h3>
+      <img src="tableExample.png" alt="Example of a table" />
+      <!-- Paste area -->
+      <div id="pasteArea" contenteditable="true">
+        Paste your table here.
+      </div>
+      <!-- Control Panel -->
+      <div id="controlPanel">
+        <label for="numberInput">Number of groups:</label>
+        <input
+          type="number"
+          id="numberInput"
+          min="1"
+          max="1000"
+          placeholder=""
+        />
+        <button id="saveButton">Assign Groups</button>
+      </div>
+      <!-- Results -->
+      <h4>Group Distribution:</h4>
+      <div id="resultsContainer"></div>
+      <!-- Copy Button -->
+      <button id="copyButton">Copy Results</button>
+    </div>
+    <!-- Include main JS script -->
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

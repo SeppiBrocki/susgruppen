@@ -1,0 +1,143 @@
+/* Basis-Stile: Moderne Typografie und Hintergrundfarbe */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eef2f7;
+    color: #333;
+}
+
+/* Container: Erzeugt eine abgesetzte "Karte" mit Hintergrund, abgerundeten Ecken und Schatten */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* h1: Leicht reduziert, kompakter, mit klaren Rändern */
+h1 {
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #2980b9;
+    text-align: center;
+    margin: 20px 0;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    line-height: 1.2;
+}
+
+/* h2: Mehr Raum und eine dezente Hintergrundhervorhebung für bessere Lesbarkeit */
+h2 {
+    font-size: 1.6em;
+    text-align: center;
+    color: #2c3e50;
+    margin: 30px 0 20px;
+    line-height: 1.4;
+    background-color: rgba(52, 152, 219, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* h3: Klare Gliederung durch linke Farbleiste, statt unterer Linie */
+h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #34495e;
+    text-align: left;
+    margin: 30px 0 15px;
+    padding-left: 10px;
+    border-left: 4px solid #3498db;
+}
+
+/* Allgemeine Textabsätze für bessere Lesbarkeit */
+p, .liste {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+img {
+    display: block;
+    max-width: 40%;  /* Verkleinert das Bild auf 40% der Container-Breite */
+    height: auto;
+    margin: 20px auto;
+}
+
+/* PasteArea: Zusätzlicher Innenabstand und ein dezenter Rahmen, damit Inhalte besser hervorstechen */
+#pasteArea {
+    border: 2px dashed #95a5a6;
+    background-color: #fff;
+    padding: 25px;
+    min-height: 140px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Control Panel: Mehr Polsterung, ein sanfterer Hintergrund und verbesserte Abstände zwischen den Elementen */
+#controlPanel {
+    background-color: #f7f9fc;
+    padding: 20px;
+    border: 1px solid #dfe4ea;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Einheitlicher Abstand zwischen den Elementen */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#controlPanel label {
+    font-weight: bold;
+    margin: 0;
+}
+
+#numberInput {
+    width: 80px;
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    border-radius: 3px;
+}
+
+/* Buttons: Klare, kontrastreiche Buttons mit Hover-Effekt */
+#saveButton,
+#copyButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#saveButton {
+    background-color: #3498db;
+    color: #fff;
+}
+
+#saveButton:hover {
+    background-color: #2980b9;
+}
+
+#copyButton {
+    background-color: #2ecc71;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+
+#copyButton:hover {
+    background-color: #27ae60;
+}
+
+/* Ergebnisse-Bereich: Einheitlicher Stil mit deutlicher Abgrenzung */
+#resultsContainer {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
