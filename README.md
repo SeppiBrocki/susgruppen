@@ -96,24 +96,12 @@ The algorithm aims to find a group distribution in which no reassignment would i
 
 ---
 
-## 🛠️ Example: Dynamic Group Balancing
-
-Imagine 10 students divided into 3 groups:
-
-- Group A: 4 students  
-- Group B: 3 students  
-- Group C: 3 students
-
-With fixed group sizes, the last student might end up in a less ideal group. Dynamic tracking of group sizes avoids this problem.
-
----
-
 ## 📈 Performance
 
 - Each iteration: `O(n × g × p)`  
   (n = students, g = groups, p = avg. prefs)
 - Total cost: `O(1000 × n × g × p)`
-- Works well for up to ~100 students
+- Works well for many students
 
 ---
 
