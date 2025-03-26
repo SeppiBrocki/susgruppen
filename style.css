@@ -1,11 +1,9 @@
-/* Basis-Stile: Moderne Typografie und Hintergrundfarbe */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #eef2f7;
     color: #333;
 }
 
-/* Container: Erzeugt eine abgesetzte "Karte" mit Hintergrund, abgerundeten Ecken und Schatten */
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -15,7 +13,6 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* h1: Leicht reduziert, kompakter, mit klaren Rändern */
 h1 {
     font-size: 2.4em;
     font-weight: bold;
@@ -27,7 +24,6 @@ h1 {
     line-height: 1.2;
 }
 
-/* h2: Mehr Raum und eine dezente Hintergrundhervorhebung für bessere Lesbarkeit */
 h2 {
     font-size: 1.6em;
     text-align: center;
@@ -39,7 +35,6 @@ h2 {
     border-radius: 5px;
 }
 
-/* h3: Klare Gliederung durch linke Farbleiste, statt unterer Linie */
 h3 {
     font-size: 1.4em;
     font-weight: bold;
@@ -50,7 +45,6 @@ h3 {
     border-left: 4px solid #3498db;
 }
 
-/* Allgemeine Textabsätze für bessere Lesbarkeit */
 p, .liste {
     font-size: 1.1em;
     line-height: 1.6;
@@ -59,12 +53,11 @@ p, .liste {
 
 img {
     display: block;
-    max-width: 40%;  /* Verkleinert das Bild auf 40% der Container-Breite */
+    max-width: 40%;
     height: auto;
     margin: 20px auto;
 }
 
-/* PasteArea: Zusätzlicher Innenabstand und ein dezenter Rahmen, damit Inhalte besser hervorstechen */
 #pasteArea {
     border: 2px dashed #95a5a6;
     background-color: #fff;
@@ -75,7 +68,6 @@ img {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Control Panel: Mehr Polsterung, ein sanfterer Hintergrund und verbesserte Abstände zwischen den Elementen */
 #controlPanel {
     background-color: #f7f9fc;
     padding: 20px;
@@ -85,7 +77,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px; /* Einheitlicher Abstand zwischen den Elementen */
+    gap: 20px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -101,7 +93,6 @@ img {
     border-radius: 3px;
 }
 
-/* Buttons: Klare, kontrastreiche Buttons mit Hover-Effekt */
 #saveButton,
 #copyButton {
     padding: 10px 20px;
@@ -132,7 +123,6 @@ img {
     background-color: #27ae60;
 }
 
-/* Ergebnisse-Bereich: Einheitlicher Stil mit deutlicher Abgrenzung */
 #resultsContainer {
     background-color: #fff;
     padding: 20px;
