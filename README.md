@@ -128,17 +128,17 @@ This helps balance group sizes and improve match quality overall.
 
 ## 📋 Input Format
 
-Student data must be entered in table format:
+Student data must be entered in table format. Each preference should be listed in its own column:
 
-| Name     | Preferences       | Level |
-|----------|-------------------|-------|
-| Alice    | Bob, Charlie      | 2     |
-| Bob      | Alice             | 1     |
-| Charlie  | Alice, Dana       | 3     |
+| Name     | Preference 1 | Preference 2 | Preference 3 | Level |
+|----------|--------------|--------------|--------------|-------|
+| Alice    | Bob          | Charlie      |              | 2     |
+| Bob      | Alice        |              |              | 1     |
+| Charlie  | Alice        | Dana         |              | 3     |
 
 - **Name**: required  
-- **Preferences**: comma-separated list (optional)  
-- **Level**: 1–3 (optional)
+- **Preference 1–3**: optional preferences, each in a separate column  
+- **Level**: optional, values from 1 to 3
 
 ---
 
