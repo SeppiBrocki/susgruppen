@@ -11,7 +11,7 @@ The grouping is performed based on:
 
 ### Preference-Based Grouping
 
-When grouping based on preferences, the algorithm tries to fulfill them in an (almost) optimal way (or inversely, depending on settings). A preference is fulfilled when a student is grouped with someone on their preference list. This is referred to as a **match**.
+When grouping based on preferences, the algorithm tries to fulfill them in an optimal way (or inversely, depending on settings). A preference is fulfilled when a student is grouped with someone on their preference list. This is referred to as a **match**.
 
 ### Performance-Based Grouping
 
