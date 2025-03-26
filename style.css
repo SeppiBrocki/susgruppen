@@ -53,10 +53,13 @@ p, .liste {
 
 img {
     display: block;
-    max-width: 40%;
+    max-width: 80%;
     height: auto;
-    margin: 20px auto;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+
 
 #pasteArea {
     border: 2px dashed #95a5a6;
