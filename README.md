@@ -86,13 +86,9 @@ After all students have been assigned, the total number of matches is counted an
 
 The greedy algorithm (steps 1–6) is repeated 1000 times. The grouping with the highest total number of matches is returned as the optimal configuration.
 
-# 🧠 Match Definition
-
-A match occurs when a student is grouped with someone listed in their preference list.
-
 ## 🎯 Optimization Goal
 
-The algorithm aims to find a group distribution in which no reassignment would increase the number of matches.
+A match occurs when a student is grouped with someone listed in their preference list. The algorithm aims to find a group distribution in which no reassignment would increase the number of matches.
 
 ---
 
