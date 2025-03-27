@@ -110,7 +110,7 @@ The current greedy algorithm with 1000 iterations has consistently produced opti
 - Reduce the probability that certain combinations of preferences prevent the algorithm from finding the optimal grouping even after 1000 iterations.  
 - Reduce the number of iterations required to reliably reach the optimal configuration.
 
-A promising idea is to adjust how remaining students are assigned. If a group becomes temporarily larger, it becomes more likely that the next student will be placed there due to more match opportunities—this reinforces imbalance.
+A promising idea is to adjust how remaining students are assigned. If a group becomes temporarily larger, it becomes more likely that the next student will be placed there due to more match opportunities—this reinforces temporary imbalances during the grouping process.
 
 Normalizing match scores by group size can mitigate this effect:
 
@@ -118,7 +118,7 @@ Normalizing match scores by group size can mitigate this effect:
 - Group B: 2 students → 2 matches  
 → Normalized: 3/4 < 2/2 → Group B is preferred
 
-This helps balance group sizes and improve match quality overall.
+This helps balance group sizes during the grouping process and might improve match quality in some edge cases overall.
 
 ---
 
