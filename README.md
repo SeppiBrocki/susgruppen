@@ -157,7 +157,13 @@ README.md            → Project documentation
 
 ## 📄 License
 
-MIT License – Free to use for educational and non-commercial purposes.
+Copyright (c) 2025 [SeppiBrocki]
+
+This code is free to use for personal, educational, and non-commercial purposes.
+Commercial use is prohibited without explicit permission from the author.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
 
 ---
 
