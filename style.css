@@ -24,32 +24,28 @@ h1 {
     line-height: 1.2;
 }
 
-/* Angepasstes Layout für Informationsblöcke */
-
-/* h2 – für allgemeine Informationen */
 h2 {
     font-size: 1.6em;
-    text-align: left; /* Linksbündig, damit längere Informationsblöcke leichter lesbar sind */
+    text-align: left;
     color: #2c3e50;
     margin: 20px 0;
-    line-height: 1.6; /* Größere Zeilenhöhe für bessere Lesbarkeit */
-    background-color: #f4f6f9; /* Heller, ruhiger Hintergrund */
+    line-height: 1.6;
+    background-color: #f4f6f9;
     padding: 15px;
-    border-left: 5px solid #3498db; /* Akzentueller Farbstreifen links */
+    border-left: 5px solid #3498db;
     border-radius: 3px;
 }
 
-/* h3 – für konkrete Anweisungen oder Detailinfos */
 h3 {
     font-size: 1.4em;
-    font-weight: normal; /* Reduziert, damit es nicht zu dominant wirkt */
+    font-weight: normal;
     color: #34495e;
     text-align: left;
     margin: 20px 0;
     line-height: 1.6;
-    background-color: #fff; /* Klarer Hintergrund, um den Text hervorzuheben */
+    background-color: #fff;
     padding: 15px;
-    border-left: 4px solid #3498db; /* Konsistenter Akzent wie bei h2 */
+    border-left: 4px solid #3498db;
     border-radius: 3px;
 }
 
